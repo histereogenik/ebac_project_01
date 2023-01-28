@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+footer {
+    padding: 16px;
+    background-color: black;
+    color: goldenrod;
+}
+
+header h1 {
+    font-size: 35px;
+}
+
+header h1,
+section h2,
+form button {
+    font-family: 'Mantinia Regular', serif;
+    font-weight: normal;
+}
+
+form button {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+section h3 {
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+body,
+header nav li,
+input, textarea {
+    font-family: 'Source Serif Pro', serif;
+}
+
+header nav li {
+    display: inline;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+header nav li a {
+    color: goldenrod;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1080px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header nav,
+header h1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section {
+    padding: 24px;
+    color: goldenrod;
+}
+
+#about .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#about img {
+    margin-right: 8px;
+}
+
+#dlc .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#dlc p {
+    margin-right: 16px;
+}
+
+#contact h2,
+#buy .container,
+.social-links {
+    text-align: center;
+}
+
+section img {
+    height: 300px;
+
+}
+
+section p,
+section h2 {
+    margin-bottom: 8px;
+    margin-left: 16px;
+}
+
+#about, #buy {
+    background-color: rgba(0, 0, 0, 0.885);
+}
+
+#dlc, #contact {
+    background-color: rgba(0, 0, 0, 0.945);
+}
+
+.brands-list img {
+    height: 64px;
+    margin-right: 16px;
+}
+
+.brands-list li {
+    display: inline;
+}
+
+.social-links img {
+    height: 32px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 200px;
+}
+
+form button {
+    background-color: goldenrod;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(118, 90, 21);
+}
+
+input:focus, textarea:focus {
+    outline-color: goldenrod;
+}
